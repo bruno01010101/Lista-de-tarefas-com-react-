@@ -31,6 +31,7 @@ function App(){
     const copia = [...tarefas];
     copia[indice] = novaTarefa;
     setTarefas(copia);
+    setIndice(-1)
    }
     
     setNovaTarefa('');
